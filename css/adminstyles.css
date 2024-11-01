@@ -1,0 +1,32 @@
+div#TectiteAdmin {
+    width:80%;
+}
+div#TectiteAdmin ul {
+    list-style:disc inside;
+    list-style-image: url(https://www.tectite.com/images/tick.png);
+    margin-left:2em;
+}
+
+div#TectiteAdmin ol li {
+    margin-left:2em;
+}
+
+div#TectiteAdmin dl dt {
+    margin-left:2em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+div#TectiteAdmin dl dd {
+}
+
+div#TectiteAdmin form#TectiteOptions {
+    border:1px dotted gray;
+    margin:20px auto;
+    padding:20px;
+    width:60%;
+}
+div#TectiteAdmin form#TectiteOptions input[type="checkbox"] {
+    margin-left:10px;
+    margin-right:10px;
+}
